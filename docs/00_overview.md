@@ -30,7 +30,7 @@ The goal of this setup is to:
 | Hostname | IP Address | Services | Purpose |
 |-----------|-------------|----------|----------|
 | `dnsproxy.home.lan` | `192.168.1.x` | Pi-hole, Unbound, Nginx | DNS + Reverse Proxy |
-| `media.home.lan` | `192.168.1.x` | Jellyfin, ARM | Media Server |
+| `media.home.lan` | `192.168.1.x` | Jellyfin, other services | Media Server |
 | `openwrt.lan` | `192.168.1.1` | DHCP, Gateway | Network Router |
 
 ---
