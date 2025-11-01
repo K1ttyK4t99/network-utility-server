@@ -54,7 +54,23 @@ pihole -a -p
 ## Integration with Unbound
 
 ### 2. Configure Pi-hole to use Unbound
-Edit Pi-hole's upstream configuration as shown in [01_dns_unbound_setup](01_dns_unbound_setup)
+Edit Pi-hole's upstream configuration as such:
+In the Pi-hole admin interface:
+   1. Go to Settings -> DNS
+   2. Disable all upstream DNS servers
+   3. Enable Custom 1 (IPv4) and set to:
+   ```bash
+   127.0.0.1#5335
+   ```
+   4. Save and restart Pi-hole:
+   ```bash
+   sudo systemctl restart pihole-FTL
+   ```
+You can confirm Pi-Hole is using Unbound:
+```bash
+dig google.com @127.0.0.1 -p 5335
+```
+
 
 ---
 

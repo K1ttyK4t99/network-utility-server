@@ -169,25 +169,6 @@ If so, DNSSEC is functioning correctly
 
 ---
 
-## Integration with Pi-hole
-In the Pi-hole admin interface:
-   1. Go to Settings -> DNS
-   2. Disable all upstream DNS servers
-   3. Enable Custom 1 (IPv4) and set to:
-   ```bash
-   127.0.0.1#5335
-   ```
-   4. Save and restart Pi-hole:
-   ```bash
-   sudo systemctl restart pihole-FTL
-   ```
-You can confirm Pi-Hole is using Unbound:
-```bash
-dig google.com @127.0.0.1 -p 5335
-```
-
----
-
 ## Verification Steps
 
 | Test             | Command                                                | Expected Result       |
