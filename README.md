@@ -50,27 +50,6 @@ See [`examples/sample_nginx_reverse_proxy.conf`](examples/sample_nginx_reverse_p
 
 ---
 
-### Backup and Recovery
-- Critical docs and diagrams are mirrored nightly to an external backup target.
-- Scripts for quick restoration live under [`scripts/`](scripts/).
-
-**Documentation:**  
-- [`backup/backup_strategy.md`](backup/backup_strategy.md)  
-- [`backup/recovery_checklist.md`](backup/recovery_checklist.md)
-
----
-
-## Useful Scripts
-
-| Script | Description |
-|--------|--------------|
-| `setup_unbound.sh` | Installs and configures Unbound |
-| `setup_nginx.sh` | Sets up base Nginx reverse proxy |
-| `verify_dns.sh` | Tests DNS resolution and recursion |
-| `test_proxy.sh` | Confirms reverse proxy routes correctly |
-| `restart_services.sh` | Restarts Pi-hole, Unbound, and Nginx safely |
-
----
 
 ## Troubleshooting
 
