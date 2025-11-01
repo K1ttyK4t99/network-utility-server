@@ -67,7 +67,7 @@ curl -v http://<ip address>:<backend_port>
 ```
 - Reload Nginx
 ```bash
-sudo systemctl restart Nginx
+sudo systemctl restart nginx
 ```
 
 ---
