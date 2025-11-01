@@ -46,7 +46,7 @@ The system currently runs:
 - Routes requests based on `server_name`.
 
 **Example Configuration:**  
-See [`examples/sample_nginx_reverse_proxy.md`](examples/sample_nginx_reverse_proxy.md)
+See [`examples/sample_nginx_reverse_proxy.conf`](examples/sample_nginx_reverse_proxy.conf)
 
 ---
 
