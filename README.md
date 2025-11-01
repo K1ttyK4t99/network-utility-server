@@ -20,6 +20,9 @@ The system currently runs:
 | Media Server | `media.home.lan` | `192.168.1.x` | Jellyfin, Nextcloud |
 | Router | `openwrt.lan` | `192.168.1.1` | DHCP, Firewall, Gateway |
 
+**Documentaion:**
+- [docs/00_overview.md](docs/00_overview.md)
+
 
 
 ---
