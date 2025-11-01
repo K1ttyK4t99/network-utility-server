@@ -26,7 +26,7 @@ Before making changes:
 
 ## DNS (Unbound + Pi-hole)
 
-###1. DNS Resolution Fails
+### DNS Resolution Fails
 **Symptoms:**
 - No Internet access
 - `nslookup` or `dig` returns "SERVFAIL" or "NXDOMAIN"
